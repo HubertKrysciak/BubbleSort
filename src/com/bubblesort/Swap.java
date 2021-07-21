@@ -1,4 +1,4 @@
-package com.test;
+package com.bubblesort;
 
 public class Swap {
     public void two_var(int[] a, int i, int j){

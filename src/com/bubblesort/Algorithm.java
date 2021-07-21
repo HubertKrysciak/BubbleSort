@@ -3,7 +3,7 @@ package com.bubblesort;
 public class Algorithm {
 
     public int BS(int arr[], int swp){
-        com.test.Swap swap = new com.test.Swap();
+        Swap swap = new Swap();
         for(int i = 1; i<arr.length; i++){
             if(arr[i-1] > arr[i]){
                 swap.two_var(arr, i-1, i);
